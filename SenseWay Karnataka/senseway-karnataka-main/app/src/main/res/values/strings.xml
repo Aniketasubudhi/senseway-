@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SenseWay Karnataka</string>
+    <string name="start_assistant">Start Assistant</string>
+    <string name="stop_assistant">Stop Assistant</string>
+    <string name="transport_mode">Transport Mode</string>
+    <string name="warning_mode">Warning Mode</string>
+    <string name="add_danger_zone">Add Danger Zone</string>
+    <string name="emergency">Emergency</string>
+    <string name="describe_scene">Describe Scene</string>
+    <string name="identify_money">Identify Money</string>
+    <string name="voice_service_channel">Voice Assistant Service</string>
+    <string name="voice_service_notification">Voice Assistant is listening</string>
+</resources>

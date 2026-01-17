@@ -1,0 +1,79 @@
+SENSEWAY KARNATAKA - COMPLETE FOLDER STRUCTURE
+===============================================
+
+main_el/
+│
+├── app/
+│   ├── build.gradle                    (App-level Gradle config)
+│   ├── proguard-rules.pro              (ProGuard rules)
+│   │
+│   └── src/
+│       └── main/
+│           ├── AndroidManifest.xml     (Permissions & app config)
+│           │
+│           ├── java/
+│           │   └── com/
+│           │       └── senseway/
+│           │           └── karnataka/
+│           │               ├── MainActivity.kt
+│           │               ├── VoiceService.kt
+│           │               ├── VoiceAssistant.kt
+│           │               ├── CommandProcessor.kt
+│           │               ├── NotificationUtils.kt
+│           │               ├── PermissionManager.kt
+│           │               ├── WarningZone.kt
+│           │               ├── WarningZoneManager.kt
+│           │               ├── ZoneStorage.kt
+│           │               ├── AddZoneActivity.kt
+│           │               ├── TransportHelper.kt
+│           │               ├── EmergencyManager.kt
+│           │               ├── EmergencyContact.kt
+│           │               ├── EmergencyContactStorage.kt
+│           │               ├── EmergencyContactActivity.kt
+│           │               ├── DropDetectionManager.kt
+│           │               ├── SceneDescriptionActivity.kt
+│           │               └── MoneyIdentifierActivity.kt
+│           │
+│           └── res/
+│               ├── drawable/           (Drawable resources - empty, ready for icons)
+│               ├── layout/             (XML layout files)
+│               │   ├── activity_main.xml
+│               │   ├── activity_add_zone.xml
+│               │   ├── activity_emergency_contact.xml
+│               │   ├── activity_scene_description.xml
+│               │   └── activity_money_identifier.xml
+│               ├── mipmap/             (App icons - placeholder)
+│               ├── mipmap-anydpi-v26/  (Adaptive icons)
+│               └── values/             (String, color, theme resources)
+│                   ├── colors.xml
+│                   ├── strings.xml
+│                   └── themes.xml
+│
+├── build.gradle                        (Project-level Gradle config)
+├── settings.gradle                     (Project settings)
+├── gradle.properties                   (Gradle properties)
+│
+└── Documentation/
+    ├── README.md                       (Project overview)
+    ├── BUILD_INSTRUCTIONS.md            (Step-by-step setup)
+    ├── PROJECT_SUMMARY.md               (Implementation summary)
+    └── FOLDER_STRUCTURE.txt            (This file)
+
+TOTAL FILES:
+- 18 Kotlin source files (.kt)
+- 5 Layout XML files (.xml)
+- 3 Resource XML files (colors, strings, themes)
+- 4 Configuration files (Gradle, Manifest, etc.)
+- 4 Documentation files (.md)
+
+HOW TO VIEW IN ANDROID STUDIO:
+1. Open Android Studio
+2. File → Open → Select "main_el" folder
+3. Wait for Gradle sync
+4. Use Project view (left sidebar) to see all folders
+5. Switch to "Project" view (not "Android" view) to see full structure
+
+IF FOLDERS NOT VISIBLE:
+- Click the "Project" tab in left sidebar (not "Android" tab)
+- Or: View → Tool Windows → Project
+- Make sure you're in "Project" view mode, not "Android" view mode
